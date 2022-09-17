@@ -1,0 +1,5 @@
+print('Programa para calcular o custo de um carro alugado')
+dia = int(input('Digite quantos dias você ficou com o carro alugado: '))
+km = float(input('Informe quantos Km você rodou com o carro: '))
+custo = (dia*60)+(km*0.15)
+print('O custo do aluguel do carro é R${:.2f} e você ficou {} dias com o carro alugado, e percorreu {}Km'.format(custo, dia,km))
